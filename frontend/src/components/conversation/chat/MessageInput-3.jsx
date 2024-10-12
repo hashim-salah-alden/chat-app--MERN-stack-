@@ -28,6 +28,7 @@ const MessageInput = () => {
             viewBox="0 0 48 48"
             width="25"
             xmlns="http://www.w3.org/2000/svg"
+            onClick={() => handleSubmit}
           >
             <path d="M4.02 42l41.98-18-41.98-18-.02 14 30 4-30 4z" />
             <path d="M0 0h48v48h-48z" fill="none" />
