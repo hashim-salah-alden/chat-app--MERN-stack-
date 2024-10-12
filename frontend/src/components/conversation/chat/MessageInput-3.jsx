@@ -1,5 +1,7 @@
 import { useState } from "react";
 import useSendMessage from "../../../hooks/useSendMessage.js";
+import { IoMdSend } from "react-icons/io";
+
 
 const MessageInput = () => {
   const [message, setMessage] = useState("");
@@ -23,16 +25,8 @@ const MessageInput = () => {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
-          <svg
-            height="25"
-            viewBox="0 0 48 48"
-            width="25"
-            xmlns="http://www.w3.org/2000/svg"
-            onClick={() => handleSubmit}
-          >
-            <path d="M4.02 42l41.98-18-41.98-18-.02 14 30 4-30 4z" />
-            <path d="M0 0h48v48h-48z" fill="none" />
-          </svg>
+          <button type="submit"><IoMdSend size={25}/></button>
+
         </label>
       </div>
     </form>
