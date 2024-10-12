@@ -2,15 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
- body { 
-  /* background: rgb(59,51,92);
-background: linear-gradient(90deg, rgba(59,51,92,1) 0%, rgba(66,42,96,1) 100%, rgba(108,22,212,1) 100%, rgba(0,212,255,1) 100%); */
-	/* background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center; */
- } 
 
-dark mode looking scrollbar */
+
+dark mode looking scrollbar 
  ::-webkit-scrollbar {
 	width: 8px;
 }
@@ -26,7 +20,7 @@ dark mode looking scrollbar */
 
 ::-webkit-scrollbar-thumb:hover {
 	background: #242424;
-} */ 
+}  
 
 SHAKE ANIMATION ON HORIZONTAL DIRECTION
 .shake {
