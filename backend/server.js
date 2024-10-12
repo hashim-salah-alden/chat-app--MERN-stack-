@@ -16,7 +16,7 @@ const __dirname = path.resolve();
 dotenv.config();
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://chat-app-mern-stack-2v3d.onrender.com",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
